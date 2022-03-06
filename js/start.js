@@ -11,8 +11,8 @@ function calResult() {
 
 function setResult() {
     let point = calResult();
-    const $resultName = document.querySelector('.resultName');
-    $resultName.innerHTML = infoList[point].name;
+    const resultName = document.querySelector('.resultName');
+    resultName.innerHTML = infoList[point].name;
 
     const resultImg = document.createElement('img');
     const imgDiv = document.querySelector('#resultImg');
